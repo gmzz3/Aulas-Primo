@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: blue;
+}
+
+h1 {
+  font-size: xxx-large;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-size: large;
+  font-weight: 600;
+}
+
+blockquote {
+  margin: 24px 0;
+  padding: 16px 24px;
+  border-left: 4px solid #888;
+  font-style: italic;
+  color: #ddd;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #aaa;
+  text-align: right;
+}
+
+blockquote p::before {
+  content: '“';
+  font-size: 2em;
+  vertical-align: top;
+  margin-right: 4px;
+  color: #888;
+}
+
+blockquote p::after {
+  content: '”';
+  font-size: 2em;
+  vertical-align: bottom;
+  margin-left: 4px;
+  color: #888;
+}
